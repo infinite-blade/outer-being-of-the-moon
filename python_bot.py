@@ -129,4 +129,4 @@ async def rest(interaction: discord.Interaction):
     await interaction.response.send_message(f"✨ **{interaction.user.display_name}** rested at a Site of Grace. HP and FP are fully restored!")
 
 # Put your bot token here
-bot.run("MTU1MjA0Nzg1MzkxOTE1MDE4Mg.GEd86_.I6rGKZ8OXiFEdFDm49MsrEvOLvdIucYlngvLt4")
+bot.run(os.getenv("DISCORD_TOKEN"))
